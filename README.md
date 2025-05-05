@@ -16,26 +16,27 @@ Technologies Used
 Getting Started
 Backend Setup
 1.	Clone this repository:
-1.git clone https://github.com/yourusername/task-management.git
+       git clone https://github.com/yourusername/task-management.git
 2.	Navigate to the backend directory:
-1.	cd task-management-backend
+     	cd task-management-backend
 3.	Install dependencies:
-1.	npm install
+    	npm install
 4.	Create a new file in the backend directory and add your MongoDB connection string and JWT secret:
-1.	MONGODB_URI=your_mongodb_connection_string
-2.	JWT_SECRET=your_jwt_secret
+     	MONGODB_URI=your_mongodb_connection_string
+    	JWT_SECRET=your_jwt_secret
 5.	Run the server:
-1.	node server.js
+     	node server.js
 The backend server should be running on http://localhost:5000.
 Frontend Setup
 1.	Navigate to the frontend directory:
-1. cd task-management-frontend
-2.	Install dependencies:
-1.	npm install
+    cd task-management-frontend
+3.	Install dependencies:
+    npm install
 3.	Update the API URL in the frontend code to match your backend URL if necessary.
 4.	Run the Next.js application:
-1.	npm run dev
+    npm run dev
 The frontend application should be running on http://localhost:3000.
+
 API Endpoints
 Authentication
 •	POST /api/auth/register - Register a new user
@@ -59,3 +60,4 @@ git commit -m 'Add Some Feature'
 4.	Push to the branch:
 git push origin feature/YourFeature
 5.	Open a pull request.
+
